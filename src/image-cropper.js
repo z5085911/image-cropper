@@ -842,7 +842,7 @@ Component({
             height: Math.round(this.data.height * this.data.export_scale),
             destWidth: this.data.width * this.data.export_scale,
             destHeight: Math.round(this.data.height) * this.data.export_scale,
-            fileType: 'png',
+            fileType: 'jpg',
             quality: this.data.quality,
             canvasId: this.data.el,
             success: (res) => {
